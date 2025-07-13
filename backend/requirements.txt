@@ -1,0 +1,11 @@
+matplotlib
+numpy
+notebook
+tensorflow
+tensorflow-model-optimization
+fastapi
+uvicorn[standard]
+Pillow
+fastapi
+httpx
+python-multipart
