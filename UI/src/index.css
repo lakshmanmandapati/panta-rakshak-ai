@@ -1,0 +1,21 @@
+@import url('@fontsource/poppins/400.css');
+@import url('@fontsource/poppins/500.css');
+@import url('@fontsource/poppins/600.css');
+@import url('@fontsource/poppins/700.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #f0f9f0 0%, #fafafa 100%);
+    min-height: 100vh;
+  }
+  
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
