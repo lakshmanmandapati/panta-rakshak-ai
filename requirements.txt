@@ -1,7 +1,7 @@
 matplotlib
 numpy
 notebook
-tensorflow
+tensorflow-cpu
 tensorflow-model-optimization
 fastapi
 uvicorn[standard]
