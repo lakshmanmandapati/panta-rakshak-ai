@@ -43,3 +43,56 @@ First, clone the project from GitHub to your local machine.
 ```bash
 git clone [https://github.com/lakshmanmandapati/panta-rakshak-ai.git](https://github.com/lakshmanmandapati/panta-rakshak-ai.git)
 cd panta-rakshak-ai
+'''
+### Step 2: Set Up and Run the Backend API
+
+1.  **Navigate to the Backend Directory**:
+    * *(Note: Your backend files are currently in the root directory. These instructions assume they remain there.)*
+
+2.  **Create and Activate a Python Virtual Environment**:
+    ```bash
+    # Create the environment
+    python3 -m venv venv
+    
+    # Activate it (on macOS/Linux)
+    source venv/bin/activate
+    
+    # Or on Windows
+    .\venv\Scripts\activate
+    ```
+
+3.  **Install Python Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Run the Backend Server**:
+    ```bash
+    uvicorn main:app --reload
+    ```
+    Your backend API is now running at `http://localhost:8000`. **Keep this terminal window open.**
+
+### Step 3: Set Up and Run the Frontend UI
+
+1.  **Open a NEW Terminal Window**: It's crucial to run the frontend in a separate terminal.
+
+2.  **Navigate to the Frontend Directory**:
+    ```bash
+    # From the project's root folder
+    cd UI
+    ```
+
+3.  **Install Node.js Dependencies**:
+    ```bash
+    npm install
+    ```
+
+4.  **Run the Frontend Development Server**:
+    ```bash
+    npm run dev
+    ```
+    Your frontend application is now running, likely at `http://localhost:5173`.
+
+### Step 4: Use the Application
+
+Open your web browser and go to the frontend URL (e.g., `http://localhost:5173`). You can now upload an image and test the full application, which will connect to your local backend API.
