@@ -43,7 +43,7 @@ First, clone the project from GitHub to your local machine.
 ```bash
 git clone [https://github.com/lakshmanmandapati/panta-rakshak-ai.git](https://github.com/lakshmanmandapati/panta-rakshak-ai.git)
 cd panta-rakshak-ai
-'''
+```
 ### Step 2: Set Up and Run the Backend API
 
 1.  **Navigate to the Backend Directory**:
